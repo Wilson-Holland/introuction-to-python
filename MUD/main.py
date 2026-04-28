@@ -5,13 +5,12 @@ from world import Room
 
 
 def input_handler(string) -> str:
-    retvar = ""
+    retvar = "Pardon?"
     if string.lower() in ["quit", "exit", "leave", "q", "camp", "pardon?"]:
         retvar = "quit"
     elif string.lower() in ["east", "west", "up", "down", "north", "south"]:
         retvar = go(character, locations, rooms, string.lower())
-    else:
-        retvar = "Pardon?"
+    
     return retvar
 
 
@@ -205,7 +204,7 @@ if __name__ == "__main__":
     #     print(f"  {cstrip(s)}")
 
     character = "Moted"
-    cprint(rooms[locations[character]])
+    #cprint(rooms[locations[character]])
     crepl(
         handler=input_handler,
         prompt="&g> &N",

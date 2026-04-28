@@ -286,6 +286,7 @@ def cinput(prompt: str = "") -> str:
 
 
 def crepl(
+    gamestate,
     handler,
     prompt: str = "&g> &N ",
     banner: str = "",
@@ -295,7 +296,7 @@ def crepl(
     if banner:
         cprint(banner)
 
-    # cprint(rooms[locations['Moted']])
+    cprint(gamestate.rooms[gamestate.locations[gamestate.character]])
     while True:
         try:
             raw = cinput(prompt)
