@@ -62,6 +62,22 @@ TEMPLATES: dict[str, dict] = {
         "aggro":    False,
         "wander":   False,
         "position": "standing",
+
+    
+    },
+        "Citadel Guard": {
+        "name":             "Citadel Guard",
+        "key_words":        ("Guard", "Citadel"),
+        "room_description": "&wA An armed guard wanders here.&N",
+        "description": (
+            "The Kings Guard looks very protective!\nHe seems on his lunch break"
+        ),
+        "race":     "Hexblade",
+        "class":    "Guard",
+        "level":    50,
+        "stats":    [100, 100, 100, 100, 1000, 100],
+        "aggro":    False,
+        "wander":   False,
     },
 
 }
