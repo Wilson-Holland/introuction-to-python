@@ -34,7 +34,7 @@ TEMPLATES: dict[str, dict] = {
         "description": (
             "A humanoid lizard. He is &gdark-green&N, and has a short\n"
             "&Ccyan sail&N that runs from the top of his head to the end of his tail.\n"
-            "He wears an almost &Xblack cloak&N, but wears &Rno&N pants.\n"
+            "He wears an almost &Xblack cloak&N, but wears &rno&N pants.\n"
             "A &ybrown leather satchel&N is slung over his shoulder.\n"
             "Only &ghe&N knows what is inside his &ybag&N. . . ."
         ),
@@ -213,19 +213,16 @@ TEMPLATES: dict[str, dict] = {
         "wander": True,
     },
     "Sand Puma": {
-        "name":             "Sand Puma",
-        "key_words":        ("puma"),
+        "name": "Sand Puma",
+        "key_words": ("puma"),
         "room_description": "&wA sand puma aimlesly being taken into the quick sand.&N",
-        "description": (
-            "rockyish sand color and yellow.\n"
-            "puma +."
-        ),
-        "race":     "pumaish",
-        "class":    "sandy",
-        "level":    1,
-        "stats":    [99, 68, 71, 87, 81, 100],
-        "aggro":    False,
-        "wander":   True,
+        "description": ("rockyish sand color and yellow.\n" "puma +."),
+        "race": "pumaish",
+        "class": "sandy",
+        "level": 1,
+        "stats": [99, 68, 71, 87, 81, 100],
+        "aggro": False,
+        "wander": True,
     },
 }
 
