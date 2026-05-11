@@ -50,10 +50,10 @@ TEMPLATES: dict[str, dict] = {
         "description": (
             "This large purple and black dragon seems to have a shroud of darkness around it. Its eyes appear to be pits of blackness"
         ),
-        "race": "Human",
-        "class": "Student",
-        "level": 1,
-        "stats": [60, 65, 60, 80, 70, 75],
+        "race": "Dragon",
+        "class": "Watcher",
+        "level": 50,
+        "stats": [100, 100, 100, 100, 100, 100],
         "aggro": False,
         "wander": True,
     },
@@ -87,10 +87,10 @@ TEMPLATES: dict[str, dict] = {
     "Red kobold": {
         "name": "Jremblen",
         "key_words": ("kobold"),
-        "room_description": "a &rkobold&N is looking through a bag stands here.&N",
+        "room_description": "a &rkobold&N stands here, looking through a &ybag&N full of &gm&Go&gs&Gs.&N",
         "description": (
-            "A kobold stands here looking through his bag, it it filled with several different types of moss.\n"
-            "His scales are garnet red."
+            "A small &rkobold&n stands here looking through a &ybag&N, it seems to be filled with various different types of &gm&Go&gs&Gs&N.\n"
+            "His scales are &rgarnet red&N."
         ),
         "race": "Humanoid",
         "class": "rouge",
@@ -115,16 +115,16 @@ TEMPLATES: dict[str, dict] = {
         "name": "weasel",
         "key_words": ("weasel"),
         "room_description": "&wA &YWeasel&N floats here randomly.&N",
-        "description": (
+        "description": ("
             "It is very soft and chubby.\n",
-            "It seems like it standing on some cheese.",
+            "It seems like it standing on some cheese."
         ),
-        "race": "non_human",
-        "class": "Weasel",
-        "level": 50,
-        "stats": [100, 100, 100, 90, 90, 100],
-        "aggro": False,
-        "wander": False,
+        "race":     "animal",
+        "class":    "weasel",
+        "level":    50,
+        "stats":    [60, 100, 60, 100, 75, 100],
+        "aggro":    False,
+        "wander":   False,
     },
     "Nessie": {
         "name": "Nessie",
