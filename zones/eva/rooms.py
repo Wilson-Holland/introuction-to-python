@@ -25,12 +25,12 @@ ROOMS: dict[int, Room] = {
             "exits": [
                 {"direction": "north", "roomId": 1},
                 {"direction": "south", "roomId": 1},
-            #],
-            #"objects": [
-            #    O.spawn("silken_sack"),
-            #    O.spawn("windsong"),
-            #],
-            #"mobs": [M.spawn("escbaalion")],  # two independent students
+            ],
+            "objects": [
+                O.spawn("Large_Orange_Cat"),
+                O.spawn("Assorted_Bottles__Full"),
+            ],
+            "mobs": [M.spawn("fanciful_bard"))]
         }
     ),
 }
