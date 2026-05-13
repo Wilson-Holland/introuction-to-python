@@ -14,16 +14,16 @@ from ashenmoor.world import Object, Item, Weapon
 from ashenmoor.world.zone import make_spawner
 
 TEMPLATES: dict[str, dict] = {
-    "green_marker": {
-        "spawn_as":         Object,
-        "name":             "a &ggreen expo marker&N",
-        "key_words":        ("green", "expo", "marker"),
-        "room_description": "a {g&wgreen expo marker&N has been carelessly discarded here.",
-        "description":      "A forest green low-scent dry-erase marker, about half used.",
+    "cheese wheel": {
+        "spawn_as":         Item,
+        "name":             "a &Ya cheese wheel&N",
+        "key_words":        ("cheese", "wheel"),
+        "room_description": "a {&Ya cheese wheel&N} is laid here, looking fairly delicious.",
+        "description":      "a delicious-looking wheel of cheese.",
     },
 
-    "silken_sack": {
-        "spawn_as":         Item,
+    "silken sack": {
+        "spawn_as":         Object,
         "name":             "a &+rtattered &+csilken sack&N",
         "key_words":        ("tattered", "silken", "sack"),
         "room_description": "A &+rtattered &+csilken sack&N lies here, discarded.",
