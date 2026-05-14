@@ -31,10 +31,34 @@ ROOMS: dict[int, Room] = {
                 {"direction": "down", "roomId": 7},
             ],
             "objects": [
-                O.spawn("silken_sack"),
-                O.spawn("windsong"),
+                O.spawn("banana"),
+                O.spawn("green leaf"),
+                O.spawn("The Fruit"),
             ],
-            "mobs": [M.spawn("escbaalion")],  # two independent students
+            "mobs": [M.spawn("Adam","Eve","Slippery Serpant")],  # two independent students
+        }
+    ),
+2: Room(
+        {
+            "number": 2,
+            "name": "Jericho",
+            "description": "This is a city with a huge wall going around it to protect it.",
+            "indoors": False,
+            "terrain": "grass plane",
+            "exits": [
+                {"direction": "north", "roomId": 4},
+                {"direction": "south", "roomId": 5},
+                {"direction": "east", "roomId": 2},
+                {"direction": "west", "roomId": 3},
+                {"direction": "up", "roomId": 6},
+                {"direction": "down", "roomId": 7},
+            ],
+            "objects": [
+                O.spawn("Horn"),
+                O.spawn(""),
+                O.spawn(""),
+            ],
+            "mobs": [M.spawn("","","")],  # two independent students
         }
     ),
 }
